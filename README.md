@@ -45,7 +45,7 @@ engine = create_engine(connection)
 ```
 6. In your notebook, run the queries necessary to answer the following questions:
 	
-	1. What is the most a customer has spent on a single purchase?
+	1. What is the most a customer has spent on a single purchase and what was their customerId?
 	2. What country is the customer with the largest total bill from (from question 2)?
 	3. Which customerID made the fewest purchases (invoices)?
 	4. Retrieve the id, name, and # of playlists for  tracks that appear on playlists more than 4 times?
