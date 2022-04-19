@@ -4,8 +4,11 @@
 
 1. Fork and clone this GitHub repository using GitHub Desktop.
 	- The owner of the repository is displayed as part of the repo name on GitHub.com. If it says "coding-dojo-data-science", you are looking at the original repo. Click on the "Fork" button on the top-right.
+	
 	<img src="Images/fork_repo_1.png" width=600px>
+	
 	- You will see the name of the repo will change and should now start with YOUR GitHub username. It will also indicate that it is a fork of the original repository. 
+	
 	<img src="Images/fork_repo_2.png" width=600px>
 	
 	
@@ -16,7 +19,9 @@
 3. Install the included database in the Data folder (Chinook_MySql.sql) into your MySQL Server. 
 	- Either double-click on the .sql file in the Data folder using Windows' File Explorer or Mac Finder 
 	- OR Open MySQL Workbench and use the Data Import tool and then run with MySQL Workbench).
+	
 	<img src="Images/data_import_1.png" width=200px>
+	
 	<img src="Images/data_import_2.png" width=500px>
 
 4. Use Reverse Engineering in MySQL Workbench to create an ERD for the Chinook database you just installed.
