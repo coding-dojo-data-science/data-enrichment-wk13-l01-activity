@@ -44,9 +44,10 @@ connection = f'mysql+pymysql://{username}:{password}@localhost/Chinook'
 engine = create_engine(connection)
 ```
 6. In your notebook, run the queries necessary to answer the following questions:
-	1. Which customerID made the fewest purchases (invoices)?
-	2. What is the most a customer has spent on a single purchase?
-	3. What country is the customer with the largest total bill from (from question 2)?
+	
+	1. What is the most a customer has spent on a single purchase?
+	2. What country is the customer with the largest total bill from (from question 2)?
+	3. Which customerID made the fewest purchases (invoices)?
 	4. Retrieve the id, name, and # of playlists for  tracks that appear on playlists more than 4 times?
 
 7. Save your notebook and close Jupyter.
