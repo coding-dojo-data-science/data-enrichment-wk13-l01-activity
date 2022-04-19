@@ -20,7 +20,7 @@
 	- Either double-click on the .sql file in the Data folder using Windows' File Explorer or Mac Finder 
 	- OR Open MySQL Workbench and use the Data Import tool and then run with MySQL Workbench).
 	
-	<img src="Images/data_import_1.png" width=200px>
+	<img src="Images/data_import_1.png" width=200px><br><br>
 	
 	<img src="Images/data_import_2.png" width=500px>
 
