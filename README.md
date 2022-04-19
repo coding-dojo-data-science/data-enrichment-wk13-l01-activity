@@ -12,7 +12,7 @@
 	<img src="Images/fork_repo_2.png" width=600px>
 	
 	
-2. Open the repo with Jupyter Notebook and create a new Notebook using dojo-env for your analysis.
+2. Open the repo with Jupyter Notebook and create a new Notebook using dojo-env for your analysis. [Lesson Link](https://login.codingdojo.com/m/376/12528/88059) (See the "Open the Repository with Jupyter Notbeook" section.)
 	- Don't see Python (dojo-env) as an option? 
 		- Make sure you ran the following line in your terminal/GitBash from [Python Installation Step 2](https://login.codingdojo.com/m/376/12807/89878) after creating your dojo-env: 
 		```python -m ipykernel install --user --name dojo-env --display-name "Python (dojo-env)"```
@@ -24,12 +24,12 @@
 	
 	<img src="Images/data_import_2.png" width=500px>
 
-4. Use Reverse Engineering in MySQL Workbench to create an ERD for the Chinook database you just installed.
+4. Use Reverse Engineering in MySQL Workbench to create an ERD for the Chinook database you just installed. [Lesson Link](https://login.codingdojo.com/m/376/12528/88042)
 	- Export the ERD into your repostory as a png file in your Data folder.
 	- Insert the ERD into a Markdown cell in your notebook using the following syntax (make sure to change the filename to match yours, if you used something other tha "ERD.png")
 	`![png](Data/ERD.png)`
 
-5. In your Jupyter Notebook, use pymysql and splalchemy to connect your database. 
+5. In your Jupyter Notebook, use pymysql and sqlalchemy to connect your database. [Lesson Link](https://login.codingdojo.com/m/376/12528/89874)
 ```python
 import pandas as pd
 from sqlalchemy import create_engine
